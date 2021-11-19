@@ -3,8 +3,25 @@
 #intro-name{
     color: #ffa304;
     font-size: 22px;
+    line-height: 32px;
+    letter-spacing: normal;
 }
 
 #intro-title{
-    font-size: 70px;
+    font-size: 78px;
+    line-height: 92px;
+    letter-spacing: -1px;
+}
+
+.container-text{
+    width: 815px; 
+    height: 455px; 
+    border: 2px solid green;
+    margin: 267px 0px 152px 0px; 
+}
+
+.container-main{
+    width: 1140px; 
+    height: 937px; 
+    border: 2px solid red;
 }

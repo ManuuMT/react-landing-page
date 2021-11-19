@@ -8,7 +8,8 @@ import Main from "../component/main.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center mt-5">
+		<div>
+			<Main />
 			<h1>Hello Rigo!</h1>
 			<p>
 				<img src={rigoImage} />
@@ -21,7 +22,6 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
-			<Main />
 		</div>
 	);
 };
