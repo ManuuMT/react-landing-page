@@ -9,9 +9,9 @@ const Main = () => {
 		<section className="container-fluid bg-black">
 			<div className="container d-flex align-items-center container-content">
 				<div className="container container-text">
-					<div className="col-md-8">
+					<div className="col-xl-6 col-lg-6 col-md-6">
 						<h3 id="intro-name">Hola, Soy Manu Maldonado</h3>
-						<h1 id="intro-title" className="text-white">
+						<h1 id="intro-title" className="h1 text-white">
 							Te ayudo a crecer tu negocio con tecnologías de
 							primera.
 						</h1>

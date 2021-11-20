@@ -20,7 +20,7 @@ section{
 }
 
 #intro-title{
-    font-size: 70px;
+    font-size: 3.5vw;
     line-height: 92px;
     letter-spacing: -1px;
     text-transform: uppercase;
@@ -33,20 +33,19 @@ section{
 }
 
 .hero-pic{
-    background-color: #02182c;
     background-repeat: no-repeat;
     background-position: top left;
     background-image: url(../img/hero-pic-modified.jpg);
-    background-size: 75%;
+    background-size: 70%;
     position: absolute;
-    top: 20%;
+    top: 10%;
     right: 0;
     bottom: 0;
-    left: 50%;
+    left: 60%;
 }
 
 .grid-points {
-    /*background-image: url(../img/pattern-dot-grid.svg);*/
+    background-image: url(../img/pattern-dot-grid.svg);
     background-size: 24px 24px;
     opacity: .15;
     position: absolute;
