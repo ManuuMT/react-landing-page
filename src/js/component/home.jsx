@@ -11,7 +11,7 @@ import Main from "../component/main.jsx";
 
 //create your first component
 const Home = () => {
-	return (	
+	return (
 		<div>
 			<Navbar />
 			<Main />
