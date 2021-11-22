@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const NavItemSocial = prop => {
 	return (
@@ -8,6 +9,10 @@ const NavItemSocial = prop => {
 			</a>
 		</li>
 	);
+};
+
+NavItemSocial.propTypes = {
+	network: PropTypes.string
 };
 
 export default NavItemSocial;
