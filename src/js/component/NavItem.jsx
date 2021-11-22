@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const NavItem = prop => {
 	return (
@@ -8,6 +9,10 @@ const NavItem = prop => {
 			</a>
 		</li>
 	);
+};
+
+NavItem.propTypes = {
+	title: PropTypes.string
 };
 
 export default NavItem;

@@ -3,6 +3,7 @@ import React from "react";
 //Components
 import Navbar from "../component/Navbar.jsx";
 import Main from "../component/main.jsx";
+import MainBody from "../component/MainBody.jsx";
 
 //Resources
 //import rigoImage from "../../img/rigo-baby.jpg";
@@ -15,6 +16,7 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Main />
+			<MainBody />
 		</div>
 	);
 };
