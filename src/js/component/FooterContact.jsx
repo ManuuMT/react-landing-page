@@ -1,21 +1,31 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const FooterContact = () => {
+const FooterContact = props => {
 	return (
-		<div className="container d-flex flex-row">
-			<div className="col-6">
-				<p>Llámame</p>
-				<a href="">+34 653 22 33 65</a>
-			</div>
-			<div className="col-6">
-				<p>Redes Sociales</p>
-				<p>
-					<a href="">Facebook</a>/<a href="">Linkedin</a>/
-					<a href="">Github</a>
-				</p>
+		<div className="container">
+			<div className="row">
+				<div className="mobile-number col-lg-6 col-sm-12">
+					<p>Llámame</p>
+					<a href={props.mobile}>{props.mobile}</a>
+				</div>
+				<div className="social-media col-lg-6 col-sm-12">
+					<p>Redes Sociales</p>
+					<p>
+						<a href={props.facebook}>Facebook</a>/
+						<a href={props.linkedin}>Linkedin</a>/
+						<a href={props.github}>Github</a>
+					</p>
+				</div>
 			</div>
 		</div>
 	);
 };
 
+FooterContact.propTypes = {
+	mobile: PropTypes.string,
+	facebook: PropTypes.string,
+	linkedin: PropTypes.string,
+	github: PropTypes.string
+};
 export default FooterContact;

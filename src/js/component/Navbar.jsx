@@ -5,7 +5,7 @@ import ButtonCollapse from "../component/ButtonCollapse.jsx";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-black py-3 sticky-top">
 			<div className="container-fluid">
 				<a className="navbar-brand" href="#"></a>
 

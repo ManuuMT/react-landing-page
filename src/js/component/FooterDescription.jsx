@@ -1,17 +1,18 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const FooterDescription = () => {
+const FooterDescription = props => {
 	return (
-		<div className="container">
-			<h2 className="pb-3">
-				<a href="">me@manumaldonado.es</a>
-			</h2>
-			<p className="pb-5 personal-text text-white">
+		<div className="container pb-5">
+			<a className="contact-email" href="#">
+				{props.email}
+			</a>
+			<p className="personal-text mt-5">
 				Estaré encantado de conocerte, escucharte y ayudarte. Trabajemos
 				juntos y construyamos algo increíble. Convirtamos tu idea en un
 				proyecto aún mejor.
 				<br />
-				<a className="contact-link" href="">
+				<a className="contact-link" href="#">
 					Contáctame
 				</a>
 				.
@@ -20,4 +21,7 @@ const FooterDescription = () => {
 	);
 };
 
+FooterDescription.propTypes = {
+	email: PropTypes.string
+};
 export default FooterDescription;
