@@ -1,6 +1,6 @@
 import React from "react";
 
-const Main = () => {
+const Intro = () => {
 	return (
 		<section className="container-fluid bg-black">
 			<div className="container d-flex align-items-center container-content">
@@ -27,4 +27,4 @@ const Main = () => {
 	);
 };
 
-export default Main;
+export default Intro;
