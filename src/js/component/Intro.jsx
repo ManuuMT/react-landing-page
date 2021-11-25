@@ -15,7 +15,7 @@ const Intro = () => {
 							Te ayudo a crecer tu negocio con tecnologías de
 							primera.
 						</h1>
-						<div className="d-flex flex-row align-items-center">
+						<div className="d-flex flex-row align-items-center mt-5">
 							<a href="#" className="scroll-button">
 								Haz scroll para conocerme
 							</a>
@@ -23,19 +23,7 @@ const Intro = () => {
 						</div>
 					</div>
 				</div>
-				{/* Componente 2 */}
-				<div className="container">
-					<img
-						src={heroPic}
-						className="hero-pic img-fluid"
-						alt="hero"
-					/>
-					{/* <img
-						src={gridDots}
-						className="dots-pic img-fluid"
-						alt="Dots"
-					/> */}
-				</div>
+				<img src={heroPic} className="hero-pic" alt="hero" />
 			</div>
 		</section>
 	);
