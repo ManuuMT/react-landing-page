@@ -37,15 +37,19 @@
 //FooterContact
 .mobile-number, .social-media{
     font-size: 1.5rem;
-    color: rgba($color: #ffff, $alpha: 0.35);
+    color: rgba($color: #ffff, $alpha: 0.35); 
     font-family: 'Didact Gothic', sans-serif;
 }
 
 .mobile-number > a, .social-media > p > a{
-    font-size: 2.75rem;
+    font-size: 2rem;
     line-height: 1.259;
     color: white;
+    text-decoration: none;
     font-family: 'Frank Ruhl Libre', serif;
 }
 
 //FooterCopy
+.copy-text{
+    color: rgba($color: #ffff, $alpha: 0.35); 
+}
