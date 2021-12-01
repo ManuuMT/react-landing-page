@@ -22,21 +22,24 @@ section{
     color: white;
     text-transform: uppercase;
     font-family: 'Russo One', sans-serif;
+    position: absolute;
 }
 @media (max-width: 576px) {  
-    #intro-title {font-size: 3rem; line-height: 4rem;}
+    #intro-title {font-size: 4rem; line-height: 5rem; width: 450px;}
 }
-@media (min-width: 576px) {  
-    #intro-title {font-size: 3rem; line-height: 4rem;}
-}
+
 @media (min-width: 768px) {  
-    #intro-title {font-size: 3.5rem; line-height: 4.75rem;}
+    #intro-title {font-size: 6.5rem; line-height: 6.75rem; width: 700px;}
 }
 @media (min-width: 992px) { 
-    #intro-title {font-size: 4rem; line-height: 5rem;}
+    #intro-title {font-size: 5rem; line-height: 6rem; width: 750px;}
 }
 @media (min-width: 1200px) {  
-    #intro-title {font-size: 4.875rem; line-height: 5.75rem;}
+    #intro-title {font-size: 4.875rem; line-height: 5.75rem; width: 750px;}
+}
+
+.intro-bottom {
+    position: absolute;
 }
 
 .scroll-button {
@@ -55,12 +58,13 @@ section{
     background-color: #ffa304;
 }
 
+.main-col {
+    height: 100vh;
+}
 .hero-pic{
-    width: 450px;
-    height: 800px;
-    position: absolute;
-    top: 15%;
-    right: 0;
-    bottom: 0;
-    left: 55%;
+    
+    max-height: 90%;
+    max-width: 100%;
+    float: right;
+   
 }

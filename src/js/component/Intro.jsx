@@ -1,21 +1,30 @@
 import React from "react";
 
-import heroPic from "../../img/hero-pic-modified.jpg";
-import gridDots from "../../img/pattern-dot-grid.svg";
-
 const Intro = () => {
 	return (
-		<section className="container-fluid bg-black d-flex align-items-center">
+		<section className="container-fluid bg-black d-flex">
 			<div className="container">
-				{/* Componente 1 */}
-				<div className="row">
-					<div className="col-lg-6 col-md-12 col-sm-12">
+				<div className="row d-flex flex-column">
+					<div className="col-12 main-col pt-5">
 						<h3 id="intro-name">Hola, Soy Manu Maldonado</h3>
 						<h1 id="intro-title">
 							Te ayudo a crecer tu negocio con tecnologías de
 							primera.
 						</h1>
-						<div className="d-flex flex-row align-items-center mt-5">
+						<img
+							className="hero-pic"
+							src="https://i.imgur.com/3G5FMwg.jpg"
+							alt="hero"
+						/>
+						1
+					</div>
+
+					<div
+						className="col-12"
+						style={{
+							marginBottom: "-50px >:( ESTO NO FUNCIONA  )"
+						}}>
+						<div className="d-flex flex-row align-items-center">
 							<a href="#" className="scroll-button">
 								Haz scroll para conocerme
 							</a>
@@ -23,7 +32,6 @@ const Intro = () => {
 						</div>
 					</div>
 				</div>
-				<img src={heroPic} className="hero-pic" alt="hero" />
 			</div>
 		</section>
 	);
