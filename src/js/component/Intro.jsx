@@ -16,14 +16,9 @@ const Intro = () => {
 							src="https://i.imgur.com/3G5FMwg.jpg"
 							alt="hero"
 						/>
-						1
 					</div>
 
-					<div
-						className="col-12"
-						style={{
-							marginBottom: "-50px >:( ESTO NO FUNCIONA  )"
-						}}>
+					<div className="col-12">
 						<div className="d-flex flex-row align-items-center">
 							<a href="#" className="scroll-button">
 								Haz scroll para conocerme
