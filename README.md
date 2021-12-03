@@ -8,13 +8,13 @@ Colaborative landing page made by 2 students from 4Geeks Academy. This is a fait
 
 
 
-## Technologies used
+## 🚀 Technologies used
 
 
 ![](https://i.imgur.com/z6iuNDI.png)
 
 
-## Honorable Contributors
+## 🏆 Honorable Contributors
 
 
 ![](https://i.imgur.com/yHDBZFw.png)
