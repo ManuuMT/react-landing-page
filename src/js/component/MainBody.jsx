@@ -8,7 +8,9 @@ const MainBody = () => {
 		<div className="main-body">
 			<div className="container">
 				<div className="row">
-					<div className="little-bar"></div>
+					<div className="col">
+						<div className="little-bar"></div>
+					</div>
 				</div>
 
 				<div className="row mt-4">

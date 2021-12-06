@@ -21,7 +21,7 @@ const Navbar = () => {
 					</ul>
 
 					<div className="nav-right">
-						<ul className="navbar-nav">
+						<ul className="navbar-nav d-flex flex-row">
 							<NavItemSocial network="fab fa-facebook" />
 							<NavItemSocial network="fab fa-linkedin" />
 							<NavItemSocial network="fab fa-github" />
